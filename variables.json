@@ -1,0 +1,8 @@
+{
+    "source_iso": "https://cdimage.debian.org/cdimage/release/11.2.0/amd64/iso-cd/debian-11.2.0-amd64-netinst.iso",
+    "source_checksum_url": "https://cdimage.debian.org/cdimage/release/11.2.0/amd64/iso-cd/SHA256SUMS",
+    "output_dir": "output",
+    "output_name": "debian-nodi.qcow",
+    "ssh_username": "nodi",
+    "ssh_password": "nodi"
+}

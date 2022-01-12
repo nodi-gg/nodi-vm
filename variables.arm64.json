@@ -1,0 +1,14 @@
+{
+    "source_iso": "https://cdimage.debian.org/cdimage/release/11.2.0/arm64/iso-cd/debian-11.2.0-arm64-netinst.iso",
+    "source_checksum_url": "file:https://cdimage.debian.org/cdimage/release/11.2.0/arm64/iso-cd/SHA256SUMS",
+    "output_dir": "output",
+    "output_name": "debian-nodi.qcow",
+    "ssh_username": "nodi",
+    "ssh_password": "nodi",
+    "qemu_binary": "qemu-system-aarch64",
+    "qemuargs": [ 
+      [ "-machine", "virt" ],
+      [ "-device", "virtio-gpu-pci" ],
+      [ "-boot", "strict=off" ]
+      ]
+}
