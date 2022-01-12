@@ -36,7 +36,8 @@ source "qemu" "debian" {
   memory       = 2048
   disk_size    = 8000
   headless     = true
-
+  accelerator  = "kvm"
+  
   vnc_bind_address  = "0.0.0.0"
 
   http_directory = "http"
